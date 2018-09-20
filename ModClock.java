@@ -15,7 +15,7 @@ public class ModClock
 		System.out.print("What time is it right now 24 hour: ");
 		time = input.nextInt();
 		hours = time / 100;
-		mins = time % 60;
+		mins = time % 100;
 		System.out.print("How many hours later?: ");
 		futurehour = input.nextInt();
 		System.out.print("How many minutes later?: ");
